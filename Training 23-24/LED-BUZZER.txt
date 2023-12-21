@@ -1,0 +1,24 @@
+--------------------------------------------------
+ T I N K E R C A D README T E M P L A T E
+ readme_<LED-BUZZER>.txt
+--------------------------------------------------
+ARDUINO FILE NAME: <epic_crift1>.ino
+---------------------------------------------------
+CIRCUIT IMAGE NAME: circ_<Screenshot 2023-12-20 234843>.png
+CREATORS: 1.Blatsis Alexandros
+ 2. Petridis Xristos
+---------------------------------------------------
+PURPOSE OF CIRCUIT: 
+ This circuit makes a LED shine for 3 seconds.Then it turns off for 3 sec while a buzzer starts "buzzing" for 3 seconds.Finally the buzzer stops and LED starts shining again,repeating the same prossedure.
+HARDWARE USED: 
+- Arduino UNO R3 
+- Breadboard, wires, 2 buttons, 2 resistors of 220Ω,1 buzzer
+HARDWARE CONNECTIONS:
+References to : 
+- Globals/ Constants on code :
+ The red LED is reffered to as "LED_BUILTIN".The buzzer is reffered to as the number "9".
+
+Basic connections between a part/port/pin of equipment and the other end they matched:
+ The LED's long leg is plugged in Digital Pin (PWD) number 13, and its short leg goes to a 
+GND pin to the Arduino board
+ The buzzer's "positive" (+) leg is plugged in a Digital PIn (PWD) number 9 and the "negative" (-) leg goes to a GND pin to the Arduino Board.>
